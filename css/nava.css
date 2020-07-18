@@ -1,0 +1,381 @@
+
+
+/*.............当当优选...........*/
+.selective{
+	width: 1200px;
+	margin:0px auto;
+	padding-bottom: 50px;
+}
+.selective nav{
+	overflow: hidden;
+}
+.selective nav li{
+	float:left;
+	padding: 0px 3px;
+	font-size: 18px;
+	line-height: 24px;
+	color:#323232;
+	font-weight: bold;
+}
+.selective nav li.li1{
+	font-size: 24px;
+}
+.selective nav li span{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #323232;
+}
+.selective nav li:after{
+	content: '/';
+	margin:0px 5px;
+	color:#BDBDBD;
+}
+.selective nav li:first-child:after{
+	content: '|';
+	margin:0px 5px;
+	color:#BDBDBD;
+}
+.selective nav li:last-child:after{
+	content: '';
+	
+}
+
+.selective nav li:hover{
+	color:#FC312A;
+}
+.selective nav li:hover span{
+	color:#FC312A;
+}
+.selective .body{
+	overflow: hidden;
+	border-top:1px solid #E6E6E6;
+	border-left:1px solid #E6E6E6;
+	
+}
+.selective .bodyLeft{
+	overflow: hidden;
+	float: left;
+	width: 400px;
+	height: 348px;
+}
+.selective .bodyLeft a{
+	float: left;
+	width:200px; 
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	
+
+}
+
+.selective .bodyCenter a{
+	width:399px; 
+	height: 348px;
+	float: left;
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+}
+.selective .bodyCenter a img{
+	height: 347px;
+}
+
+.navigation{
+	width: 1220px;
+	margin:0px auto;
+}
+.navigation nav{
+	border-bottom: 3px solid #3C3C3C;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+
+}
+.navigation nav .con{
+	width: 130px;
+	height: 40px;
+	background: url(../imgs/clock.png) no-repeat 79px 0px;
+}
+.navigation nav .left li{
+	float: left;
+}
+.navigation nav .clock{
+	line-height: 40px;
+	margin-right: 80px;
+}
+.navigation nav .clock span{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	border: 1px solid #C8C8C8;
+	color:#666;
+	text-align: center;
+	line-height: 24px;
+}
+.navigation nav ol{
+	height: 40px;
+	line-height: 40px;
+}
+.navigation nav ol li{
+	color:#666;
+	font-size: 22px;
+	font-weight: bold;
+	margin-right: 50px;
+	border-bottom: 3px solid transparent;
+}
+.navigation nav ol li:hover{
+	border-bottom: 3px solid red;
+}
+.navigation nav ol li:last-child{
+	width: 220px;
+	text-align: center;
+	margin-right: 0px;
+	float: right;
+	position: absolute;
+	right: 0px;
+	z-index: 10;
+	border-bottom: 3px solid red;
+	bottom:-2px;
+}
+.navigation .body{
+	overflow: hidden;
+}
+
+.navigation .bodyLeft{
+	width: 1000px;
+	float: left;
+}
+.navigation .bodyLeft a{
+	float: left;
+	width: 200px;
+	text-align: center;
+	border-left:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	padding: 6px 5px;
+}
+.navigation .bodyLeft a .p2{
+	font-size: 12px;
+	color:#646464;
+	line-height: 30px;
+}
+.navigation .bodyLeft a .p1{
+	overflow: hidden;
+	margin-left: 18px;
+}
+.navigation .bodyLeft a .p1 span{
+	float: left;
+}
+.navigation .bodyLeft a .p1 .span{
+	width: 35px;
+	height: 10px;
+	border-radius: 10px;
+	background: #FC2C3A;
+	margin-top: 5px;
+}
+.navigation .bodyLeft a .p1 .span1{
+	background: #FC2C3A;
+}
+.navigation .bodyLeft a .p1 .span3{
+	background: #FE8D91;
+}
+.navigation .bodyLeft a .p1 .span2{
+	font-size: 13px;
+	color:white;
+	background: #FE8D91;
+	border-radius: 20px;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.navigation .bodyLeft a .p3{
+	color:#FF2838;
+	margin-left: 3px;
+	font-size: 15px;
+}
+.navigation .bodyLeft a .p3 span{
+	text-decoration: line-through;
+	font-size: 14px;
+	color:#969696;
+	margin-left: 5px;
+}
+
+.navigation .bodyRight{
+	float: left;
+	width: 220px;
+}
+.navigation .bodyRight img{
+	width: 218px;
+	height: 111px;
+}
+.navigation .bodyRight p{
+	border-bottom:1px solid #E6E6E6;
+	border-left:1px solid #E6E6E6;
+	border-right:1px solid #E6E6E6;
+}
+.navigation .bodyRight .pLast{
+	height:121px;
+}
+
+/*................尾品汇...............*/
+.purchase{
+	width: 1201px;
+	margin:30px auto;
+}
+.purchase nav{
+	overflow: hidden;
+}
+.purchase nav img{
+	float: left;
+}
+.purchase nav p{
+	float: right;
+	color:#FA5C98;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.purchase .body{
+	overflow: hidden;
+	border-top:1px solid #E6E6E6;
+	border-left:1px solid #E6E6E6;
+	
+}
+.purchase .body .shaow img{
+	width: 100%;
+	height: 100%;
+}
+.purchase .body .shaow img:hover{
+	border:2px solid #E7035C;
+	box-sizing: border-box;
+}
+.purchase .body .a1,.purchase .body .a7{
+	width: 200px;
+	height: 240px;
+	float: left;
+	text-align: center;
+}
+.purchase .body .a1,.purchase .body .a2,.purchase .body .a3,.purchase .body .a4{
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+}
+.purchase .body .a3{
+	float: left;
+	height: 240px;
+	width: 193px;
+}
+.purchase .body .a3 img{
+	height: 237px;
+}
+.purchase .body .a1 img{
+	height: 238px;
+}
+.purchase .body .a2 img{
+	height: 238px;
+}
+.purchase .body .a2{
+	float: left;
+	width: 420px;
+	height: 240px;
+	text-align: center;
+} 
+.purchase .body .a7 a{
+	width:100px;
+	height: 120px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+}
+.purchase .body .a7 img{
+	width: 80px;
+	height: 50px;
+
+}
+.purchase .body .a4{
+	float: left;
+	width: 420px;
+	height: 240px;
+}
+.purchase .body .a4 img{
+	width: 139px;
+	float: left;
+	height: 239px;
+}
+
+/*.............当当优选...........*/
+.selective{
+	width: 1200px;
+	margin:0px auto;
+}
+.selective nav{
+	overflow: hidden;
+}
+.selective nav li{
+	float:left;
+	padding: 0px 3px;
+	font-size: 18px;
+	line-height: 24px;
+	color:#323232;
+	font-weight: bold;
+}
+.selective nav li.li1{
+	font-size: 24px;
+}
+.selective nav li span{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #323232;
+}
+.selective nav li:after{
+	content: '/';
+	margin:0px 5px;
+	color:#BDBDBD;
+}
+.selective nav li:first-child:after{
+	content: '|';
+	margin:0px 5px;
+	color:#BDBDBD;
+}
+.selective nav li:last-child:after{
+	content: '';
+	
+}
+
+.selective nav li:hover{
+	color:#FC312A;
+}
+.selective nav li:hover span{
+	color:#FC312A;
+}
+.selective .body{
+	overflow: hidden;
+	border-top:1px solid #E6E6E6;
+	border-left:1px solid #E6E6E6;
+}
+.selective .bodyLeft{
+	overflow: hidden;
+	float: left;
+	width: 400px;
+	height: 348px;
+}
+.selective .bodyLeft a{
+	float: left;
+	width:200px; 
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	
+
+}
+
+.selective .bodyCenter a{
+	width:399px; 
+	height: 348px;
+	float: left;
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+}
+.selective .bodyCenter a img{
+	height: 347px;
+}

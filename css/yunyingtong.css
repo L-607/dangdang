@@ -1,0 +1,152 @@
+/* --------------------孕婴童-------------------------*/
+
+
+			.child {
+				width: 1063.2px;
+				margin: 0px auto;
+				margin-top: 0px;
+				margin-right: auto;
+				margin-bottom: 100px;
+				margin-left: auto;
+			}
+
+			.child .headTop {
+				height: 40px;
+				line-height: 40px;
+			}
+
+			.child .headTop ul {
+				overflow: hidden;
+				padding: 0px;
+			}
+
+			.child .headTop ul li:first-child {
+				font: bold 20px "Microsoft YaHei";
+			}
+
+			.child .headTop ul li {
+				font: bold 17px "Microsoft YaHei";
+
+			}
+
+			.child .headTop ul li:first-child:after {
+				content: "|";
+
+			}
+
+			.child .headTop ul li:after {
+				content: "/";
+				padding: 0px 12px;
+
+			}
+
+			ul li {
+				display: inline;
+
+				/* 一行 */
+
+			}
+
+			.child .header {
+				/* border-top: #E6E6E6 1px solid; */
+				border-top: #B7B7B7 solid 1px;
+				border-left: #B7B7B7 solid 1px;
+				/* 				border-top: 1px solid #E6E6E6;
+				border-left: 1px solid #E6E6E6; */
+				overflow: hidden;
+				height: 360px;
+			}
+
+			.child .header .headerLeft {
+				width: 202px;
+				height: 360px;	
+				float: left;
+				margin: 0px 0px 0px;
+				border: 1px;
+				/* border: solid 1px #E6E6E6; */
+			}
+
+			.child .header .headerLeft a {
+				display: block;
+				width: 201px;
+				height: 180px;
+				border-right: 1px solid #E6E6E6;
+				border-bottom: 1px solid #E6E6E6;
+				/* margin: 0px 0px 0px; */
+			}
+
+			.child .header .headerLeft a img {
+				width: 180px;
+				height: 178px;
+				margin-left: 10px;
+			}
+
+			.child .header .headerLoop {
+				width: 240px;
+				height: 360px;
+				float: left;
+				/* 				border-right: 1px solid #E6E6E6;
+				border-bottom: 1px solid #E6E6E6; */
+				position: relative;
+			}
+
+			.child .header .headerLoop .loop1 {
+				position: relative;
+			}
+
+			.child .header .headerLoop .loop1 a {
+				position: absolute;
+				border-right: 1px solid #E6E6E6;
+				border-bottom: #E6E6E6 solid 1px;
+			}
+
+			.child .header .headerLoop .loop1 a img {
+				width: 238px;
+				height: 358px;
+			}
+/* ---------------------------------- */
+/* 			.child .headerLeft {
+				width: 220px;
+				float: left;
+			} */
+/* ------------------------ */
+			.child .header .headerRight {
+				width: 620px;
+				height: 360px;
+				float: left;
+				overflow: hidden;
+			}
+
+			.child .header .headerRight a {
+				/* display: block; */
+				float: left;
+				width: 205.66px;
+				height: 180px;
+				border-bottom: #E6E6E6 solid 1px;
+				border-right: #E6E6E6 solid 1px;
+				margin: 0px 0px 0px;
+			}
+			
+/* 			.child .header .headerRight a img{
+				width: 203px;	
+				height: 195px;
+				float: left;
+			} */
+			.child .headButtom {
+				border: 1px solid #E6E6E6;
+				height: 65px;
+				background: #F7F7F7;
+			}
+
+			.child .headButtom a {
+				width: 117px;
+				height: 64px;
+				float: left;
+
+			}
+
+			.child .headButtom a img {
+				height: 62px;
+				width: 110px;
+			}
+/* ----------------------创意文具------------------------ */

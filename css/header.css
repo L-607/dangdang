@@ -1,0 +1,194 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*......................头部。。。。。。。。。。。。。。。。。*/
+.header-img{
+	width: 1200px;
+	margin:0px auto;
+}
+/*....头部导航栏背景图*/
+.header-all{
+	height: 30px;
+	background-color:#F9F9F9;
+	border-bottom: 1px solid #F2F2F2;
+	
+
+}
+
+.header-all nav{
+	width: 1200px;
+	margin:0px auto;
+	font-size: 13px;
+	position: relative;
+}
+
+/*。。。。。导航栏左边地址*/
+.header-all nav .area{
+	float:left;
+	position: absolute;
+	top:0px;
+
+}
+.areaTop:hover{
+	border:1px solid #F2F2F2;
+	border-bottom:none;
+	background-color:white;
+	height: 31px;
+	z-index: 100;
+	
+}
+
+nav .areaTop{
+	width: 118px;
+	padding: 4px 10px ;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+nav .areaTop span{
+	padding-right: 3px;
+	float: left;
+	
+}
+nav .areaTop b{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/head_sprite.png) no-repeat -72px -308px;
+}
+.areaTop:hover b{
+	background: url(../imgs/head_sprite.png) no-repeat -72px -325px;
+}
+
+.areaList{
+	overflow: hidden;
+	position: absolute;
+	top:30px;
+	padding:10px 0px 10px 10px;
+	width: 270px;
+	border:1px solid #F2F2F2;
+	display: none;
+	z-index: 100;
+}
+nav .area:hover .areaList{
+	display: block;
+	background: white;
+}
+.areaList li{
+	float:left;
+	font-size: 13px;
+	width: 50px;
+	margin-top: 10px;
+
+}
+.areaList li:hover{
+	color:#FF2832;
+}
+/*。。。。。。。。导航栏右边。。。。*/
+.navList{
+	float:right;
+}
+.navList a{
+	color:#646464;
+}
+.navList .navList-top a:hover{
+	color:#FF2832;
+}
+
+.hov .dangList{
+	overflow: hidden;
+	border:1px solid #F2F2F2;
+	width: 220px;
+	background: white;
+	padding:10px 0px 10px 10px;
+}
+.dangList div{
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.dangList div p{
+	line-height: 20px;
+}
+.navList .login{
+	color:#FF2832;
+}
+.navList li{
+	float:left;
+	color:#646464;
+	position: relative;
+}
+
+.navList .navList-top{
+	padding: 4px 10px ;
+}
+
+.navList .shopCar{
+	padding-left: 30px;
+	background: url(../imgs/home_sprite2.png) no-repeat -31px -82px;
+}
+.nav-hov a{
+	float: left;
+}
+.hov{
+	position: relative;
+	width: 85px;
+	height: 30px;
+}
+.nav-hov{
+	width: 80px;
+}
+.nav-hov b{
+	display: block;
+	position: relative;
+	left:55px;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/head_sprite.png) no-repeat -72px -308px;
+}
+.dangList1{
+	position: absolute;
+	top:29px;
+	width: 80px;
+	background: white;
+	text-align: center;
+	line-height: 24px;
+	display: none;
+	border:1px solid  #F2F2F2;
+	z-index: 100;
+
+}
+.dangList p:hover{
+	background: none;
+}
+.dangList1 p:hover{
+	background: #F2F2F2;
+}
+
+.navList .nav-hov{
+	position: absolute;
+	top:0px;
+	height: 30px;
+}
+.hov:hover b{
+	background: url(../imgs/head_sprite.png) no-repeat -72px -325px;
+}
+.hov:hover .nav-hov{
+	border:1px solid #F2F2F2;
+	border-bottom:none;
+	background-color:white;	
+	z-index: 100;
+}
+.hov:hover .dangList1{
+	display: block;
+} 

@@ -1,0 +1,767 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+
+}
+
+/*......................头部。。。。。。。。。。。。。。。。。*/
+.header-img{
+	width: 1200px;
+	margin:0px auto;
+}
+/*....头部导航栏背景图*/
+.header-all{
+	height: 30px;
+	background-color:#F9F9F9;
+	border-bottom: 1px solid #F2F2F2;
+	
+
+}
+
+.header-all nav{
+	width: 1200px;
+	margin:0px auto;
+	font-size: 13px;
+	position: relative;
+}
+
+/*。。。。。导航栏左边地址*/
+.header-all nav .area{
+	float:left;
+	position: absolute;
+	top:0px;
+
+}
+.areaTop:hover{
+	border:1px solid #F2F2F2;
+	border-bottom:none;
+	background-color:white;
+	height: 31px;
+	z-index: 100;
+	
+}
+
+nav .areaTop{
+	width: 118px;
+	padding: 4px 10px ;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+nav .areaTop span{
+	padding-right: 3px;
+	float: left;
+	
+}
+nav .areaTop b{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/head_sprite.png) no-repeat -72px -308px;
+}
+.areaTop:hover b{
+	background: url(../imgs/head_sprite.png) no-repeat -72px -325px;
+}
+
+.areaList{
+	overflow: hidden;
+	position: absolute;
+	top:30px;
+	padding:10px 0px 10px 10px;
+	width: 270px;
+	border:1px solid #F2F2F2;
+	display: none;
+	z-index: 100;
+}
+nav .area:hover .areaList{
+	display: block;
+	background: white;
+}
+.areaList li{
+	float:left;
+	font-size: 13px;
+	width: 50px;
+	margin-top: 10px;
+
+}
+.areaList li:hover{
+	color:#FF2832;
+}
+/*。。。。。。。。导航栏右边。。。。*/
+.navList{
+	float:right;
+}
+.navList a{
+	color:#646464;
+}
+.navList .navList-top a:hover{
+	color:#FF2832;
+}
+
+.hov .dangList{
+	overflow: hidden;
+	border:1px solid #F2F2F2;
+	width: 220px;
+	background: white;
+	padding:10px 0px 10px 10px;
+}
+.dangList div{
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.dangList div p{
+	line-height: 20px;
+}
+.navList .login{
+	color:#FF2832;
+}
+.navList li{
+	float:left;
+	color:#646464;
+	position: relative;
+}
+
+.navList .navList-top{
+	padding: 4px 10px ;
+}
+
+.navList .shopCar{
+	padding-left: 30px;
+	background: url(../imgs/home_sprite2.png) no-repeat -31px -82px;
+}
+.nav-hov a{
+	float: left;
+}
+.hov{
+	position: relative;
+	width: 85px;
+	height: 30px;
+}
+.nav-hov{
+	width: 80px;
+}
+.nav-hov b{
+	display: block;
+	position: relative;
+	left:55px;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/head_sprite.png) no-repeat -72px -308px;
+}
+.dangList1{
+	position: absolute;
+	top:29px;
+	width: 80px;
+	background: white;
+	text-align: center;
+	line-height: 24px;
+	display: none;
+	border:1px solid  #F2F2F2;
+	z-index: 100;
+
+}
+.dangList p:hover{
+	background: none;
+}
+.dangList1 p:hover{
+	background: #F2F2F2;
+}
+
+.navList .nav-hov{
+	position: absolute;
+	top:0px;
+	height: 30px;
+}
+.hov:hover b{
+	background: url(../imgs/head_sprite.png) no-repeat -72px -325px;
+}
+.hov:hover .nav-hov{
+	border:1px solid #F2F2F2;
+	border-bottom:none;
+	background-color:white;	
+	z-index: 100;
+}
+.hov:hover .dangList1{
+	display: block;
+} 
+/*........搜索.........*/
+
+.search{
+	width: 1200px;
+	margin:0px auto;
+	height: 96px;
+	
+
+}
+.search .yuandan{
+	float:left;
+}
+.search .search-center{
+	float:left;
+}
+.search form{
+	width: 570px;
+	border:2px solid #FF2832;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+	
+}
+.search input[type='text']{
+	width: 410px;
+	padding:10px; 
+	border:none;
+	outline: none;
+	float: left;
+}
+.search .select{
+	float:left;
+	position: relative;
+}
+.search .select span{
+	display: block;
+	background: #F6F6F6;
+	height: 36px;
+	width: 110px;
+	padding:0px 10px;
+	line-height: 40px;
+	color:#A2969F;
+	cursor: pointer;
+}
+.search .select span b{
+	display: block;
+	width: 5px;
+	height: 5px;
+	border:5px solid transparent;
+	border-top: 5px solid #666;
+	position: relative;
+	top:-23px;
+	left:70px;
+}
+.search .select .selectList{
+	width: 109px;
+	height: 210px;
+	overflow: auto;
+	background: white;
+	position: absolute;
+	z-index: 100;
+	top:36px;
+	display: none;
+	border:1px solid #ccc;
+}
+.search .select ul li{
+	color:#646464;
+	font-size: 13px;
+	line-height: 24px;
+	text-indent: 10px;
+	cursor: pointer;
+}
+.search .select ul li a{
+	color:#646464;
+	font-size: 13px;
+
+
+
+}
+.search .select:hover .selectList{
+	display: block;
+}
+.search .select ul li:hover{
+	background-color: #ccc;
+	background-clip: padding-box;
+}
+.search .select ul li:hover a{
+	text-decoration:underline;
+	color:white;
+}
+.search input[type='submit']{
+	width: 52px;
+	height: 36px;
+	visibility: hidden;
+	border:none;
+	outline: none;
+	float: left;
+}
+.search input[type='buttom']{
+	width: 52px;
+	height: 36px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	outline: none;
+	cursor: pointer;
+	border:none;
+	background: url(../imgs/bg5.png) no-repeat 5px -350px;
+	
+}
+ .hotSearch ul{
+ 	margin-top: 8px;
+ }
+  .hotSearch .left{
+  	float:left;
+  	position: relative;
+  	left:-53px;
+  }
+ .hotSearch .left li{
+ 	float:left;
+ 	margin-right: 8px;
+ }
+.hotSearch li a{
+  	font-size: 14px;
+  	color:#969696;
+  	
+  }
+.hotSearch li a:hover{
+	color:red;
+	text-decoration: underline;
+  }
+.hotSearch .right{
+   	float:right;
+   }
+.search-right{
+	float:right;
+	margin: 27px 0px 0px 40px;
+}
+.search-right a{
+	float:left;
+	width: 110px;
+	height: 38px;
+	line-height: 36px;
+	font-size: 14px;
+	color:#646464;
+	
+	background-color: #F6F6F6;
+	border:2px solid #DCDCDC;
+	cursor: pointer;
+}
+.search-right a.right{
+	border-left: none;
+	text-align: center;
+}
+.search-right a.right:hover{
+	color: #ff2832;
+}
+.search-right a.left{
+	background: url(../imgs/123.png) no-repeat 1px -1px #FF2832;
+	border:2px solid #FF2832;
+	color:white;
+	padding-left: 40px;
+
+	}
+.search-right a.left:hover{
+	background-color: #F6F6F6;
+	border:2px solid #DCDCDC;
+	color:#FF2832;
+	background: url(../imgs/head_sprite.png) no-repeat 5px -160px #F6F6F6;
+}
+/*。。。。。。。中间部分。。。。。。*/
+main{
+	margin-bottom: 60px;
+}
+main nav{
+	height: 40px;
+	border-bottom: 2px solid #FF2832;
+}
+
+main nav ul{
+	overflow: hidden;
+	width: 1200px;
+	margin: 0px auto;
+	height: 38px;
+}
+main nav ul li{
+	float:left;
+	line-height: 40px;
+	margin:0px 13px;
+}
+main nav ul li.liFirst{
+	width: 200px;
+	height: 40px;
+	font-weight: bold;
+	color:white;
+	padding-left: 20px;
+	font-size: 14px;
+	background: url(../imgs/1234.png) no-repeat 147px 11px #FF2832;
+}
+main nav ul li a{
+	font-weight: bold;
+	color:#323232;
+	font-size: 14px;
+}
+/*轮播图上字体hover效果 */
+.litop li a:hover{
+		color: #FF2832;
+}
+
+section{
+	width: 102%!important;
+	margin:0 auto!important;
+	height: 469px;
+	background: url(../imgs/bg7.jpg) no-repeat center center;
+}
+section .all{
+	width: 1200px;
+	margin:0px auto;
+	
+}
+
+section .all2 ul{
+	overflow: hidden;
+}
+section li,section p{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+section p{
+	width: 80px;
+	font-weight: bold;
+
+}
+section a{
+	font-size: 14px;
+	color:#323232;
+}
+section .all .right a{
+	color:#686868;
+	font-size: 14px;
+}
+section .all .right ol{
+	overflow: hidden;
+	border-bottom: 1px dotted #D5D5D5;
+}
+section .all .left{
+	width: 200px;
+	padding: 0px 20px;
+	float: left;
+	background-clip: padding-box;
+
+}
+section .left ul{
+	height: 34px;
+	line-height: 34px;
+}
+section .all1 .right{
+	width:1000px;
+	padding: 10px 20px;
+	border:2px solid #FF2832;
+	border-top: none;
+	position: absolute;
+	top:0px;
+	left:198px;
+	background: white;
+	display: none;
+	float: left;
+	
+
+}
+section .all .all1{
+	float:left;
+	position: relative;
+}
+
+section .all1 .all2-top{
+	width: 730px;
+	float: left;
+}
+section .all1 .all2-bottom{
+	float: right;
+	width: 225px;
+	padding: 30px 10px;
+}
+section .all1 .all2-bottom img{
+	margin:5px 8px;
+}
+
+section .right .stories a{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	background: #A2A2A2;
+	padding:0px 5px;
+}
+section .right .stories{
+	height: 30px;
+	overflow: hidden;
+}
+
+section .right .stories li{
+	margin-right: 20px;
+}
+section .right .stories b{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/home_sprite_1511.png) no-repeat -70px -146px #C8C8C8;
+}
+/*鼠标放上去变色*/
+.right .stories li a:hover {
+	background: #FF2832;
+	color: white;
+}
+.right .stories b:hover{
+	
+	background: url(../imgs/home_sprite_1511.png) no-repeat -70px -166px #C8C8C8;
+}
+
+section .all .right p{
+	color:red;
+	float: left;
+}
+section .ol1 li:first11-child a{
+	color:red;
+}
+section .ol2 li:after{
+	content:'|';
+	padding: 0px 8px;
+	color:#CED1D6;
+}
+section .ol2 li:last-child:after{
+	content: '';
+}
+section .all1 .ol11 a{
+	margin-right: 20px;
+}
+
+section .all .hover{
+	border:2px solid #FF2832;
+	border-right: none;
+	background: white;
+	position: relative;
+	width: 200px;
+	z-index: 20;
+}
+
+section .ol11 a:hover{
+	text-decoration: underline;
+	color:orange;
+}
+section .ol11 .a1:hover{
+	text-decoration: underline;
+	color:red;
+}
+section .ol2 a:hover{
+	text-decoration: underline;
+	color:red;
+}
+/*..............大轮播图。。。。。。。。。。。。*/
+section .all3{
+	position: relative;
+	width: 820px;
+	float: left;
+}
+section .all3-top a{
+	position: absolute;
+}
+section .all3-top a img{
+	width: 820px;
+}
+section .all3-top{
+	width: 780px;
+	height: 340px;
+	position: relative;
+}
+section .arrow1 span{
+	width: 0px;
+	height: 66px;
+	background-image: url(../imgs/jiantou.png);
+	position: absolute;
+	top:130px;
+	opacity: 0.5;
+	z-index: 100;
+}
+section .arrow1 span.arrowLeft{
+	left:4px;
+	background-position: 0px 0px;
+}
+section .arrow1 span.arrowRight{
+	right:4px;
+	background-position: -33px 66px;
+}
+section .all3 ul{
+	position: absolute;
+	z-index: 100;
+	top:300px;
+	left:300px;
+}
+section .all3 ul li{
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+	background: #666;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 16px;
+	color:white;
+	font-weight: bold;
+	cursor: pointer;
+}
+section .all3 ul .lunHover{
+	background:red;
+}
+section .all3-left{
+	position: absolute;
+	
+}
+section .all3-left a{
+	color:#666;
+	position: relative;
+	float: left;
+	top:-4px;
+	width: 205px;
+	height: 166px;
+}
+section .all3-left img{
+	width: 205px;
+	height: 166px;
+	position: absolute;
+	border:1px solid #E6E6E6;
+	top:0px;
+	left:0px;
+}
+section .all3-left b{
+	width: 205px;
+	height: 166px;
+	position: absolute;
+	background: #666;
+	z-index: 10;
+	opacity: 0.05;
+	top:0px;
+	left:0px;
+	
+}
+section .all3-left .bHover{
+	background: white;
+	opacity: 0;
+	z-index: -10;
+}
+section .all3 .all3-all{
+	width: 820px;
+	height: 160px;
+	position: relative;
+	left:0px;
+	top:0px;	
+}
+section .all3 .all3-left-par{
+	width: 820px;
+	height:160px; 
+	position: relative;
+	
+}
+section .all3-left-par span{
+	display: block;
+	width: 0px;
+	height: 34px;
+	position: absolute;
+	z-index: 100;
+	top:65px;
+	background-color: #000;
+	opacity: 0.1;
+	background-image: url(../imgs/home_sprite_1507.png);
+	cursor: pointer;
+}
+section .all3-left-par span.arrowLeft1{
+	left: 0px;
+	background-position: 1px -87px;
+}
+section .all3-left-par span.arrowRight1{
+	right: 0px;
+	background-position: -34px -87px;
+}
+section .all4{
+	float: left;
+	width: 180px;
+}
+/*...section  右边导航栏。。。*/
+section .all4-new{
+	overflow: hidden;
+}
+section .all4-new span{
+	float: left;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #F0F0F0;
+	color:#646464;
+	font-size: 13px;
+	border:1px solid #E6E6E6;
+}
+section .all4-new .information{
+	background: white;
+	border:none;
+}
+section .all4-top{
+	position: relative;
+	width: 210px;
+	height: 170px;
+}
+section .all4-center ul{
+	position: absolute;
+	top:30px;
+	left:0px;
+	padding: 5px;
+}
+
+section .all4-center a{
+	font-size: 12px;
+	color:#646464;
+} 
+section .all4-center li{
+	height: 26px;
+	line-height: 26px;
+	padding-left:16px;
+	background: url(../imgs/home_sprite_1507.png) no-repeat 7px -188px;
+}
+section .all4-center .all4-ul2{
+	display: none;
+}
+section .all4-center  a:hover{
+	color: #FF2832;
+}
+section .all4-btm{
+	width: 180px;
+	margin-top: 20px;
+}
+section .all4-btm .all4-nav span{
+	float: left;
+	width: 60px;
+	color:#646464;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #F0F0F0;
+	font-size: 12px;
+	border:1px solid #E6E6E6;
+	position: relative;
+	z-index: 10;
+}
+section .all4-btm .all4-nav .all4-inform{
+	background: white;
+	border-bottom:none;
+}
+section .all4-nav-btm img{
+	width: 180px;
+	height: 94px;
+	border:1px solid #E6E6E6;
+	position: relative;
+	top:-1px;
+}
+section .all4-nav-btm .all4-hide{
+	display: none;
+} 
+
+
+
+

@@ -1,0 +1,52 @@
+.m-left .pic img {
+		width: 208px;
+		height: 205px;
+		
+	}
+
+	.m-left {
+		width: 1200px;
+		margin: 0px auto;
+		padding-top: 50px;
+	}
+
+	.head {
+		height: 34px;
+		color: #ff2832;
+		font: bold 20px "Microsoft YaHei";
+		border-bottom: 2px solid #ff3228;
+		/*下边界显示*/
+		padding-left: 5px;
+	}
+	.bord{
+		border: #E6E6E6 solid :;
+		width: 1063.2px;
+	}
+	.pic {
+		float: left;
+		width: 207.5px;
+		height: 280px;
+		/* border: 1px solid #e6e6e6; */
+		overflow: hidden;
+		position: relative;
+	}
+
+	.name {
+		font-size: 12px;
+		width: 190px;
+		height: 32px;
+		line-height: 16px;
+		padding: 8px 0px 0px;
+		margin-bottom: 2px;
+		overflow: hidden;
+	}
+
+	.price {
+		font: 18px Arial;
+		color: #ff2832;
+		position: relative
+	}
+
+	a {
+		text-decoration: none;
+	}
